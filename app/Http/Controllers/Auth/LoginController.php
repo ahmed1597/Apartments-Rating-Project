@@ -5,7 +5,10 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-
+use Socialite ;
+use App\User;
+use Illuminate\Support\Facades\Hash;
+use Auth;
 class LoginController extends Controller
 {
     /*
@@ -36,5 +39,47 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+    
+    public function facebook()
+    {
+        return Socialite::driver('facebook')->redirect();
+    }
+
+    public function facebook_callback()
+    {
+        $user = Socialite::driver('facebook')->user();
+
+        $newuser = User::firstOrCreate([
+            'email' => $user->email
+        ],[
+            'name' => $user->name,
+            'password' => Hash::make($user->email),
+        ]);
+
+        Auth::login($newuser,true);
+        return redirect('/');
+        
+    }
+
+    public function google()
+    {
+        return Socialite::driver('google')->redirect();
+    }
+
+    public function google_callback()
+    {
+        $user = Socialite::driver('google')->user();
+
+        $newuser = User::firstOrCreate([
+            'email' => $user->email
+        ],[
+            'name' => $user->name,
+            'password' => Hash::make($user->email),
+        ]);
+
+        Auth::login($newuser,true);
+        return redirect('/');
+        
     }
 }

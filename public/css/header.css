@@ -1,0 +1,18 @@
+.header{
+    padding: 11rem 0rem 9rem 0rem;
+}
+
+.header-about-us{
+    background: url('../img/about_us_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-contact-us{
+    background: url('../img/contact_us_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

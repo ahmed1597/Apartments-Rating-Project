@@ -1,0 +1,112 @@
+.user-section{
+    background-color: #eef3f7;
+    padding: 2.2rem;
+}
+
+.user-section__container, .user-form__container{
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.user-section__info{
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.user-section__info img{
+    width: 13.4rem;
+    height: 13.4rem;
+    border-radius: 13.4rem;
+    margin-right: 3rem;
+    object-fit: cover;
+    object-position: top;
+    border: solid 1.5px rgb(9, 137, 210);
+}
+
+.user-section__info-name{
+    font-size: 2.34rem;
+    font-weight: 700;
+    color: #373737;
+}
+
+.user-section__info__change-btn{
+    border: none;
+    color: #ff4a49;
+    text-decoration: underline;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 1.6rem;
+    
+}
+
+.user-form h1{
+    padding-bottom: 0;
+}
+
+.edit-profile-link{
+    text-transform: uppercase;
+}
+
+.user-form__form{
+    margin: 3.8rem 0rem;
+}
+
+.user-form__form__right-col label p {
+    font-weight: 600;
+    font-size: 2.1em;
+    margin-left: 0.46em;
+}
+
+.user-form__form__sub-title {
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #373737;
+    padding: 0em 0px 2.8em 0px;
+}
+
+.user-form__form__left-col{
+    padding: 4.4rem 3.6rem;
+    box-shadow: 0px 0px 4px 0px rgba(176, 176, 176, 0.42);
+    display: flex;
+    flex-direction: column;
+}
+
+.user-form__form__right-col{
+    padding-left: 2.5rem;
+}
+
+.user-form__form__right-col label{
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.user-form__form__left-col label p{
+    font-size: 2.07rem;
+    font-weight: 600;
+    color: #373737;
+}
+
+.user-form__form__left-col label span{
+    font-weight: 400;
+}
+
+.user-form__form__left-col input{
+    padding: 1.4rem 2rem;
+    border: none;
+    box-shadow: 0px 0px 4px 0px rgba(176, 176, 176, 0.42);
+    width: 100%;
+    margin: 1.7rem 0rem 3.2rem;
+    font-size: 1.7rem;
+}
+
+.user-form__form__left-col button[type='submit']{
+    background-color: #ff4a49;
+    color: #FFF;
+    display: block;
+    border: solid 1.5px transparent;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    padding: 1.4rem 0rem;
+}

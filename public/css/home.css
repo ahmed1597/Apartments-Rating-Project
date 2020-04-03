@@ -1,0 +1,129 @@
+.home-search-section{
+    background: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24.6rem 0px;
+
+}
+
+.home-search-section .input-container{
+    width: 48rem;
+}
+
+.home-search-section .input-container button{
+    border: none;
+    background-color: transparent;
+}
+
+.home-search-section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-search-section__container h1{
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    letter-spacing: 0.02rem;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.home-search-section__container p{
+    font-size: 2.3rem;
+    color: #FFF;
+}
+
+.home-instructions__title{
+    font-size: 3.44rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 8rem 0px 10rem 0px;
+}
+
+.home-instructions__steps-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 91rem;
+    padding-bottom: 17rem;
+}
+
+.home-instructions__step img{
+    margin-right: auto;
+    display: block;
+    max-height: 36px;
+}
+
+.home-instructions__step{
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    padding: 1.8rem;
+    box-shadow: 0px 0px 0.9rem 0px rgba(236, 236, 236, 0.5);
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 0.6rem;
+}
+
+.home-instructions__step:nth-child(2){
+    position: relative;
+    top: 10rem;
+}
+
+.home-instructions__step-title{
+    font-size: 1.8rem;
+    color: #141414;
+    padding: 1.6rem 0px 1rem 0px;
+    font-weight: 600;
+}
+
+.home-instructions__step p{
+    font-size: 1.3rem;
+}
+
+.home-trust-section{
+    background-color: #0989d2;
+    padding: 6rem 0rem;
+    color: #FFF;
+}
+
+.home-trust-section__title{
+    display: flex;
+    align-items: center;
+    font-size: 1.65rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.home-trust-section__title img{
+    width: 5.5rem;
+    height: auto;
+    margin-right: 2.2rem;
+}
+
+.home-trust-section__list li{
+    padding-top: 2.3rem;
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.home-trust-section__right-col{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.home-trust-section__right-col img{
+    max-width: 90%;
+    height: auto;
+}
+
+.home-trust-section__right-col__stars{
+    position: absolute;
+    left: 24rem;
+    top: 2rem;
+}

@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Auth::routes();
+Route::get('/login/facebook','Auth\LoginController@facebook');
+Route::get('/login/facebook/redirect','Auth\LoginController@facebook_callback');
+Route::get('/login/google','Auth\LoginController@google');
+Route::get('/login/google/redirect','Auth\LoginController@google_callback');
 
 Route::get('/home', 'HomeController@index')->name('home');

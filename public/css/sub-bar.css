@@ -1,0 +1,50 @@
+.sub-bar{
+    background-color: #0989d2;
+    padding: 1.5em 0px 1.2em 0px;
+}
+
+.sub-bar .write-review__btn{
+    max-width: 131px;
+    font-size: 1.4em;
+    display: block;
+    padding: 0.71em 0.92em;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sub-bar__col-review{
+    padding: 0;
+}
+
+.sub-bar .write-review__btn:hover{
+    color: #FFF !important;
+    border: solid 0.07em #FFF;
+}
+
+.sub-bar__col-result{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sub-bar__col-result__span{
+    font-size: 1.8em;
+    color: #FFF;
+    font-weight: 600;
+    margin-right: 3.33em;
+
+}
+
+.sub-bar_user .container{
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.sub-bar_user .sub-bar__col-result{
+    justify-content: flex-start;
+}
+
+.sub-bar_user .sub-bar__col__write-review{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}

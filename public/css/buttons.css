@@ -1,0 +1,135 @@
+.xs-btn{
+    font-size: 1.16em;
+    padding: 0.64em 1.35em;
+    color: #FFF;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+}
+
+.xs-btn-login{
+    background: #ff4a49;
+}
+
+.lg-btn{
+    font-size: 2.2em;
+    background: #ff4a49;
+    color: #FFF;
+    justify-content: center;
+    display: flex;
+    padding: 1em 0em;
+    font-weight: 600;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 0.4em;
+    border: solid 0.1em transparent;
+}
+
+.lg-btn a{
+    color: #FFF;
+    margin-left: 0.48em;
+}
+
+.xs-btn-signup{
+    background: #0989d2;
+}
+
+.write-review__btn{
+    max-width: 156px;
+    text-align: center;
+    font-size: 0.94em;
+    font-weight: 600;
+    padding: 0.72em 0em;
+    color: #FFF !important;
+    background-color: #ff4a49;
+    border: solid 1px transparent;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign-up-btn{
+    font-size: 1.7em;
+    width: 100%;
+    border: solid 1px transparent;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ff4a49;
+    border: solid 1px transparent;
+    color: #FFF;
+    padding: 1.11em 0em;
+    text-align: center;
+    margin: 0px 0px 1.66em 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.1s ease-out;
+}
+
+.sign-up-btn:hover, .lg-btn:hover, .no-reviews__notify-btn:hover, .main-contact-us__form button[type='submit']:hover, .submit-review-modal__btn:hover, .write-review__btn:hover, .user-form__form__left-col button[type='submit']:hover, .user-section__get-verified-btn:hover, .write-review__btn:hover, .xs-btn-login:hover, .lg-btn:hover {
+    color: #ff4a49 !important;
+    background-color: transparent;
+    border: solid 0.09em #ff4a49;
+
+}
+
+.xs-btn-signup:hover{
+    color: #0989d2 !important;
+    background-color: transparent;
+    border: solid 0.09em #0989d2;
+
+}
+
+.contact-reviewer-btn{
+    border: none;
+    background-color: #bdbdbd;
+    color: #FFF;
+    padding: 0.6em 0.9em;
+    font-size: 1em;
+    border-radius: 0.28em;
+    border: solid 0.09em transparent;
+
+}
+
+.contact-reviewer-btn:hover{
+    background-color: transparent;
+    color: #4a4a4a;
+    border: solid 0.09em #4a4a4a;
+}
+
+.useful-btn{
+    background: #d8d8d8;
+    color: #4a4a4a;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0.6em 0.99em;
+    font-size: 0.99rem;
+    font-weight: 600;
+    border-radius: 0.4em;
+}
+
+.share-btn, .report-btn{
+    border: none;
+    background-color: transparent;
+    color: #787878;
+    font-size: 1.44em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.share-btn:hover, .report-btn:hover{
+    color: #ff4a49;
+}
+
+.share-btn img, .report-btn img{
+    margin-right: 1.44em;
+}
+
+.share-btn, .report-btn{
+    align-items: center;
+}
+
+.useful-btn_not img{
+    transform: rotate(180deg);
+}
+
+.main-search-result .lg-btn{
+    margin: 2.45em 2.36em 2.45em 2.36em;
+}

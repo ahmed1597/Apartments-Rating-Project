@@ -1,0 +1,166 @@
+.custom-modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 111;
+    background-color: rgba(0,0,0,0.35);
+    display: none
+}
+
+.custom-modal.active{
+    display: block;
+}
+
+.custom-modal__content{
+    background-color: #FFF;
+    padding: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 890px;
+}
+
+.close-btn{
+    position: fixed;
+    top: 1.6em;
+    right: 1.6em;
+    cursor: pointer;
+}
+
+.verification-steps__col-title{
+    font-size: 1.94rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.verification-steps__col-span{
+    font-size: 1.6rem;
+    color: #373737;
+    font-weight: 600;
+}
+
+.attached-file img{
+    max-height: 16em;
+    width: auto;
+    object-fit: contain;
+    margin-right: auto;
+}
+
+.attached-file_double img{
+    max-height: 12.7em;
+    width: auto;
+    object-fit: contain;
+    margin-right: auto;
+}
+
+.verification-steps__col-desc{
+    font-size: 1.6em;
+    color: #373737;
+    padding: 0.8em 0rem 2em;
+    font-weight: 600;
+}
+
+.custom-modal .main-title__desc{
+    padding-bottom: 6rem;
+}
+
+.custom-modal .input-file__container{
+    margin: 2.8em 0em;
+}
+
+.custom-modal .attached-file{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.custom-modal .attached-file span, .custom-modal .attached-file_double span{
+    display: flex;
+    font-size: 1.2rem;
+    color: #ff4a49;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 0.625em;
+    cursor: pointer;
+}
+
+.custom-modal__done-btn{
+    width: 100%;
+    border: none;
+    background-color: #ff4a49;
+    color: #fff;
+    padding: 0.85em 0em;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 1.5em 0rem 0rem;
+}
+
+.submit-review-modal h1{
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.submit-review-modal__btn{
+    background: #ff4a49;
+    color: #FFF;
+    padding: 0.7em 0em;
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    font-size: 1.9em;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    max-width: 262px;
+    border: solid 1.5px transparent;
+}
+
+.submit-report-modal__btn{
+    background: #d8d8d8;
+    border-radius: 18px;
+    color: #000;
+    padding: 0.65em 2.8em;
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    font-size: 1.9em;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    margin: 0.875rem 0rem;
+    max-width: 680px;
+    border: solid 1.5px transparent;
+    transition: 0.05s ease-in-out;
+    text-align: center;
+}
+
+.submit-report-modal__btn:hover{
+    background-color: #0989d2;
+    color: #FFF;
+}
+
+.submit-review-modal .custom-modal__content{
+    padding: 4rem 9rem !important;
+
+}
+
+.submit-report-modal__title{
+    font-size: 2.28rem;
+    color: #4a4a4a;
+    text-align: center;
+
+}
+
+.submit-report-modal__desc{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+
+}

@@ -1,0 +1,946 @@
+/* MEDIA SCREEN 1400PX */
+@media only screen and (max-width:1300px){
+    .main__sidebars-sidebar{
+        display: none;
+    }
+    .main-search-result.main_sidebars{
+        max-width: 856px !important;
+    }
+    .main_sidebars .main__container{
+        margin: 0;
+    }
+    .main_sidebars{
+        justify-content: center;
+    }
+    .main_sidebars .main__container{
+        width: 100%;
+    }
+}
+
+/* MEDIA SCREEN 992PX BETWEEN 1199PX */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    html{
+        font-size: 60%;
+    }
+    .footer__row{
+        font-size: 90%;
+    }
+    .footer__row .footer__col:nth-child(2){
+        margin-right: 3rem;
+    }
+}
+
+/* MEDIA SCREEN LESS 992PX * CONST * */
+
+@media screen and (max-width: 992px){
+    .home-auth-section__row__left-col{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .sub-bar__col_void{
+        display: none;
+    }
+    .sub-bar__col-result{
+        justify-content: center;
+    }
+    .sub-bar__col-result__span{
+        margin-right: 0;
+    }
+    .sub-bar__col__write-review, .sub-bar__col-search{
+        display: flex;
+        align-items: center;
+    }
+    .main-search-result__block-title{
+        font-size: 2.4rem;
+    }
+    .main-search-result__block-address{
+        font-size: 2rem;
+    }
+    .main-search-result__block__params-container{
+        font-size: 1.1rem;
+        padding: 1em 0px 1em 0px;
+    }
+    .main-write-review__date > div:nth-child(2) .default-text {
+        margin-right: 0em;
+    }
+    .main-write-review__date{
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants{
+        padding: 0rem 1.5rem;
+    }
+    .main-write-review__occupants{
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(1) .default-text {
+        padding: 0px 2.47em 0px 0.3em;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0px 2.47em 0px 2.5em;
+    }
+    .main-write-review .select-selected, .main-write-review .select-items div{
+        font-size: 1.3rem;
+    }
+
+    .home-auth-section_login .home-auth-section__row__left-col, .home-auth-section_signup .home-auth-section__row__left-col{
+        border-radius: 0px;
+        background-size: cover;
+    }
+    .home-auth-section__row__right-col h2{
+        padding-top: 70px;
+    }
+    .home-auth-section__row__right-col form{
+        margin-bottom: 60px;
+    }
+    .home-instructions__steps-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-instructions__step:nth-child(2) {
+        position: static;
+    }
+    .home-instructions__step{
+        align-self: center;
+        margin: 0px 0px 55px 0px;
+    }
+    .home-instructions__title{
+        padding: 4rem 0rem 3rem 0rem;
+    }
+    .home-instructions__steps-container{
+        padding-bottom: 4rem;
+    }
+    .home-trust-section__list{
+        padding-bottom: 30px;
+    }
+    .home-trust-section__list li{
+        text-align: center;
+        list-style: none;
+    }
+    .home-trust-section__title{
+        justify-content: center;
+    }
+    .home-trust-section__right-col{
+        margin: 0 auto;
+    }
+    .home-trust-section__right-col img{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        
+    }
+    .home-search-section__container h1{
+        text-align: center;
+    }
+    .main-search-result__block{
+        padding: 0px 15px;
+    }
+    .rating-and-reviews__container{
+        padding: 0px 10px;
+    }
+    .other-searches__span{
+        padding: 25px 15px 0px;
+        display: block;
+    }
+    .main-write-review__date > div{
+        padding-bottom: 20px;
+    }
+    .main-write-review__date .default-text{
+        padding-right: 32px;
+    }
+    .main-write-review__date{
+        padding-left: 15px;
+    }
+    .main-write-review__form .main-title{
+        margin-bottom: 20px;
+    }
+    .main-single-apartament__block, .main-single-apartament__block, .main-write-review__form{
+        margin: 20px 10px 0px 10px;
+    }
+    .user-form__container{
+        padding: 0px 15px;
+    }
+}
+
+/* MEDIA SCREEN 767PX BETWEEN 992PX */
+
+@media only screen and (min-width:767px) and (max-width:992px) {
+    html{
+        font-size: 55%;
+    }
+    .top-bar{
+        font-size: 107.5%;
+    }
+    .main-write-review__form{
+        font-size: 85%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 75%;
+    }
+    .home-instructions__step{
+        padding: 4rem;
+    }
+    .home-instructions__step p{
+        font-size: 1.8rem;
+    }
+    .home-instructions__step-title{
+        font-size: 2.2rem;
+    }
+    .main-search-result__block{
+        font-size: 110%;
+    }
+    .main-single-apartament__search-container .input-container{
+        margin: 0px 10px;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 1.05rem;
+    }
+    .main-single-apartament__block{
+        font-size: 110%;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.75em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .review-widget{
+        font-size: 80%;
+    }
+    .main-single-apartament__block__left-col{
+        padding-left: 0;
+    }
+    .main-write-review__occupants{
+        justify-content: flex-start;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        width: 45%;
+        margin-right: 4em;
+        justify-content: flex-start;
+    }
+    .main-write-review__date > div:nth-child(2) {
+        width: 45%;
+        justify-content: flex-start;
+    }
+    .home-auth-section__row__left-col{
+        background-size: auto !important;
+    }
+} 
+
+/* MEDIA SCREEN LESS 767PX * CONST * */
+
+@media screen and (max-width: 767px){
+    .main-single-apartament__block__photos > div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-single-apartament__block__published-time, .main-single-apartament__block__verified, .main-single-apartament__block__recommended {
+        font-size: 1.1em;
+        padding-left: 0;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .share-btn img, .report-btn img{
+        height: 1.25em;
+        margin-right: 0.35em;
+    }
+    .share-btn, .report-btn{
+        font-size: 1.25em;
+    }
+    .top-bar__row__nav-col{
+        transform: translateX(-150vw);    
+        height: 100vh;
+        position: fixed;
+        width: 100vw;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 15vh;
+        background-color: #FFF;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+    .top-bar__row__nav-col ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .top-bar__row__nav-col ul li{
+        margin-bottom: 1.75rem;
+    }
+
+    .footer{
+        padding: 1.7rem;
+    }
+    .footer__row .footer__col:nth-child(3){
+        padding-top: 20px;
+    }
+    .home-search-section__container p{
+        text-align: center;
+        margin: 0.8rem;
+    }
+    .submit-review__btn span{
+        display: none;
+    }
+    .slick-prev{
+        left: 30%;
+    }
+    .slick-next{
+        right: 30%;
+    }
+    .main__map iframe{
+        height: 350px;
+    }
+    .main-write-review__form{
+        margin: 0px 15px;
+    }
+    .single-apartament-section__rating-list-scale{
+        width: 100%;
+    }
+    .main-single-apartament__block__published-time, .main-single-apartament__block__recommended, .main-single-apartament__block__verified{
+        text-align: left;
+        padding: 5px;
+    }
+    .rating-and-reviews__container, .write-review__container{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .main-single-apartament__search-container, .main__map{
+        margin: 0px 10px;
+    }
+    .rating-and-reviews__container h1{
+        padding: 10px 0px;
+    }
+    .write-review__container a{
+        margin: 5px 0px;
+    }
+    .community-review-widget{
+        padding: 38px 22px 33px 22px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .community-review-widget > div{
+        padding-bottom: 20px;
+    }
+    .main-write-review__form .main-write-review__form__sub-title{
+        padding: 36px 0px 20px 0px;
+    }
+    .checkbox-container .checkmark:after{
+        width: 2.5em;
+        height: 2.5em;
+        background-size: contain;
+    }
+    .submit-review-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+
+}
+
+/* MEDIA SCREEN 568PX BETWEEN 767PX */
+
+@media only screen and (min-width:578px) and (max-width: 767px) {
+    html{
+        font-size: 47.5%;
+    }
+    .top-bar{
+        font-size: 127.5%;
+    }
+    .main-search-result__block{
+        font-size: 135%;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 0.7rem;
+    }
+    .main-single-apartament__block{
+        font-size: 130%;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.75rem;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 32%;
+        max-height: none;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .review-widget{
+        font-size: 75%;
+    }
+    .main-single-apartament__block__left-col{
+        padding-left: 0;
+    }
+    .main-write-review__form{
+        font-size: 75%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 80%;
+    }
+    .main-write-review__date > div:nth-child(1),.main-write-review__date > div:nth-child(2) {
+        width: auto;
+        justify-content: flex-start;
+        margin-right: 4em;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+} 
+
+/* MEDIA SCREEN 578PX LESS * CONST * */
+
+@media screen and (max-width: 578px){
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.9rem;
+    }
+    .custom-modal__content .input-file__container{
+        margin: 2em 0em;  
+    }
+    .custom-modal__content .input-file__container{
+        font-size: 1em;
+    }
+    .no-reviews{
+        padding-bottom: 14rem;
+    }
+    .about-us-section__row-title{
+        padding-top: 3rem;
+        font-size: 2.4rem;
+    }
+    .about-us-section_gray .about-us-section__row-desc{
+        padding-top: 1rem;
+    }
+    .about-us-section_transparent .row div:nth-child(1){
+        order: 2;
+    }
+    .main-contact-us__heading{
+        flex-direction: column;
+    }
+    .main-contact-us__info {
+        margin-bottom: 2rem;
+    }
+    .main-contact-us__form textarea{
+        margin-top: 2rem;
+        height: 9.5rem;
+    }
+    .header{
+        padding: 7rem 0rem;
+    }
+    .main-contact-us__info a{
+        text-align: left;
+    }
+    .about-us-section_transparent img{
+        margin-top: 6rem;
+    }
+    .about-us-section_transparent .about-us-section__row-desc{
+        padding: 1rem 0rem 3rem;
+    }
+    .about-us-section_transparent{
+        padding-top: 0;
+    }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.5rem;
+        padding: 1.2rem 2.55rem;
+    }
+    .sub-bar__col-search input{
+        max-width: 80px;
+    }
+    .burger-menu {
+        top: 1.5em;
+    }
+    .top-bar{
+        padding: 0.83rem 0.9rem 0.83rem 0rem;
+    }
+    .home-auth-section__row__left-col h1{
+        padding-bottom: 3rem;
+    }
+    .sub-bar__col-review {
+        padding: 0rem 0.75rem;
+    }
+    .home-search-section .input-container {
+        width: auto;
+    }
+    .slick-prev{
+        left: 15%;
+    }
+    .slick-next{
+        right: 15%;
+    }
+    .main-write-review__occupants .default-text {
+        padding: 0px 17px 0px 10px;
+    }
+    .sub-bar__col-search{
+        padding-right: 0;
+    }
+    .lg-btn {
+        font-size: 1.5em;
+        padding: 1.5rem;
+    }
+    .main-single-apartament__block__photos {
+        padding: 0px 0px 1em 0px;
+    }
+    .main-write-review__experience-rating > .d-flex p{
+        font-size: 2.4em;
+    }
+    .main-write-review__form__sub-title{
+        font-size: 3.3em !important;
+    }
+    .main-write-review__agree-btn{
+        font-size: 2.25em;
+    }
+    .input-file__container{
+        font-size: 1.7em;
+    }
+    .input-file__container-inner img{
+        height: 1.7em;
+    }
+
+    .main-page-paragraph{
+        padding: 0px 1.3rem;
+    }
+    .home-auth-section__row__left-col{
+        padding: 108px 0px 120px 0px;
+    }
+    .home-auth-section_signup .social-signup-container {
+        margin-bottom: 0px;
+    }
+    .home-search-section{
+        padding: 9.1rem 0rem;
+    }
+    .home-trust-section__list li{
+        margin-left: 0;
+    }
+    .home-search-section .input-container {
+        width: auto;
+    }
+    .slick-prev{
+        left: 22%;
+    }
+    .slick-next{
+        right: 22%;
+    }
+    .single-apartament-section__rating-list-scale{
+        width: 100%;
+    }
+    .main-single-apartament__block__bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-single-apartament__block__bottom > div{
+        padding-bottom: 10px;
+    }
+    .useful-btn_not{
+        margin-left: 18px;
+    }
+    .main-single-apartament__block__stayed-span{
+        white-space: nowrap;
+    }
+    .main-write-review__form label p{
+        font-size: 16.5px;
+    }
+    .main-write-review__form{
+        padding: 35px 25px;
+    }
+    .write-review__container .write-review__btn, .main-search-result__block__building-info .write-review__btn{
+        padding: 0.7em 0.9em;
+    }
+    .user-form__form__left-col{
+        order: 1;
+        margin-top: 2rem;
+        padding: 1.5rem 2rem;
+    }
+    .user-form__form__right-col{
+        padding: 0;
+    }
+    .user-section__info img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .user-form__form__sub-title{
+        padding-bottom: 1rem;
+    }
+}
+
+/* LARGE PHONES AND SMALL TABLETS 375PX BETWEEN 578 PX */
+
+@media only screen and (min-width:375px) and (max-width:578px) {
+    html{
+        font-size: 50%;
+    }
+    .top-bar{
+        font-size: 127.5%;
+    }
+    .sub-bar{
+        font-size: 82.5%
+    }
+    .home-search-section__container h1{
+        font-size: 2.5rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.55rem;
+    }
+    .home-search-section__container p{
+        font-size: 2.25rem;
+    }
+    .input-container{
+        padding: 1.4rem;
+    }
+    .home-instructions__title{
+        font-size: 2.5rem;
+    }
+    .social-signup-container__button p{
+        font-size: 1.4rem;
+    }
+    .sub-bar .input-container{
+        padding: 0.5em;
+    }
+    .main-search-result__block{
+        font-size: 150%;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 0.85rem;
+    }
+    .main-single-apartament__block{
+        font-size: 120%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 48%;
+        max-height: 125px;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date{
+        font-size: 77%;
+    }
+    .main-write-review__occupants{
+        font-size: 72%;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex .default-text{
+        padding: 0em 0.45em 0em 0.8em !important;
+    }
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
+    }
+    .main-write-review__date .d-flex{
+        width: 43%;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 5em;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 2em;
+    }
+}
+
+/* DEFAULT PHONES 345PX BETWEEN 374PX */
+
+@media only screen and (min-width:345px) and (max-width: 374px) {
+    html{
+        font-size: 52.5%;
+    }
+    .home-search-section__container h1, .home-instructions__title{
+        font-size: 2rem;
+    }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.2rem;
+        padding: 0.8rem 1.15rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.35rem;
+    }
+    .home-search-section__container p{
+        font-size: 1.75rem;
+    }
+    .input-container{
+        padding: 1.2rem;
+    }
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.5rem;
+    }
+    .sub-bar__col-search input {
+        max-width: 70px;
+    }
+    .burger-menu {
+        top: 2em;
+    }
+    .social-signup-container__button p{
+        font-size: 1.3rem;
+    }
+    .social-signup-container__button img {
+        height: 1.8rem;
+    }
+    .sub-bar{
+        font-size: 75%
+    }
+    .sub-bar .input-container{
+        padding: 0.55em;
+    }
+    .main-search-result__block{
+        font-size: 145%;
+    }
+    .select-selected{
+        font-size: 1.2rem;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 1.05rem;
+    }
+    .main-single-apartament__block{
+        font-size: 110%;
+    }
+    .main-single-apartament__block__photos > div img {
+        width: 75%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 75%;
+        max-height: 100px;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .review-widget{
+        font-size: 85%;
+    }
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date{
+        font-size: 72%;
+    }
+    .main-write-review__occupants{
+        font-size: 72%;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .main-write-review__form{
+        font-size: 55%;
+    }
+    .main-write-review__occupants div{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0em 2.45em 0em 0.3em !important;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .custom-theme-select__col{
+        width: 100% !important;
+    }
+    .main-write-review__experience-rating__block{
+        width: 50%;
+    }
+    .main-write-review__experience-rating > .d-flex{
+        flex-direction: column;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 1.5em;
+    }
+    .main-write-review__occupants .d-flex .default-text{
+        display: none;
+    }
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 7em;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
+    }
+}
+
+/* SMALLEST SCREENS 300PX BETWEEN 345PX */
+
+@media only screen and (min-width:300px) and (max-width: 345px) {
+    html{
+        font-size: 45.5%;
+    }
+    .home-search-section__container h1, .home-instructions__title{
+        font-size: 2rem;
+    }
+    .user-section__get-verified-btn{
+        margin-right: 0;
+        font-size: 1.2rem;
+        padding: 0.8rem 1.15rem;
+    }
+    .home-search-section__container p{
+        font-size: 1.75rem;
+    }
+    .input-container{
+        padding: 1.2rem;
+    }
+    .home-auth-section__row__right-col form {
+        width: 100%;
+    }
+    .home-auth-section__login-btn{
+        font-size: 1.5rem;
+    }
+    .burger-menu {
+        top: 2em;
+    }
+    .social-signup-container__button p{
+        font-size: 1.3rem;
+    }
+    .social-signup-container__button img {
+        height: 1.8rem;
+    }
+    .submit-report-modal__btn{
+        font-size: 1.25rem;
+    }
+    .sub-bar{
+        font-size: 72.5%
+    }
+    .sub-bar .input-container{
+        padding: 0.55em;
+    }
+    .main-search-result__block{
+        font-size: 135%;
+    }
+    .slick-prev.slick-arrow, .slick-next.slick-arrow{
+        bottom: 0.65rem;
+    }
+    .main-single-apartament__block{
+        font-size: 135%;
+    }
+    .main-single-apartament__block__photos > div img {
+        width: 90%;
+    }
+    .main-single-apartament__block__photos > div img{
+        width: 90%;
+        max-height: 100px;
+        margin: 0px 5px 5px 0px;
+        max-height: auto;
+    }
+    .main-write-review__form{
+        font-size: 65%;
+    }
+    .main-write-review__date, .main-write-review__occupants{
+        font-size: 75%;
+    }
+    .main-write-review__occupants div{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .main-write-review__occupants .d-flex:nth-child(2) .default-text {
+        padding: 0em 2.45em 0em 0.3em !important;
+    }
+    .main-write-review__date{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .custom-theme-select__col{
+        width: 100% !important;
+    }
+    .main-write-review__experience-rating__block{
+        width: 100%;
+    }
+    .main-write-review__experience-rating > .d-flex{
+        flex-direction: column;
+    }
+    .main-write-review__occupants .d-flex .default-text{
+        display: none;
+    }
+    .main-write-review__occupants button {
+        padding: 0.82em 2em;
+    }
+    .main-write-review__date .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-write-review__date .d-flex .default-text{
+        padding: 0px 0px 1rem 0rem;
+    }
+    .main-write-review__date > div:nth-child(1) {
+        margin-right: 7.5em;
+    }
+    .main-write-review__experience-rating > .d-flex {
+        flex-direction: column;
+    }
+    .custom-theme-select__col .custom-theme-select, .custom-theme-select__col{
+        margin-right: 7.5px;
+        width: 100% !important;
+    }
+    .sub-bar__col-search input{
+        max-width: 60px;
+    }
+}
+
+/* HEIGHT LESS THAN 1100PX */
+
+@media only screen and (max-height:1100px){
+    .review-info-modal .custom-modal__content{
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+}
+
+/* HEIGHT LESS THAN 850PX */
+
+@media only screen and (max-height:850px){
+    .verify-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+}
+
+/* HEIGHT LESS THAN 720PX */
+
+@media only screen and (max-height:710px){
+    .submit-report-modal .custom-modal__content{
+        width: 95vw;
+        max-height: 90vh;
+        overflow-y: scroll;
+    }
+}

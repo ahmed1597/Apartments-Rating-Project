@@ -1,0 +1,77 @@
+.main-contact-us{
+    padding: 7.3rem 0rem;
+}
+
+.main-contact-us__form input{
+    background-color: #f9f9f9;
+    border: none;
+    font-size: 1.5rem;
+    color: #707070;
+    padding: 1.3rem 2rem;
+    width: 100%;
+}
+
+.main-contact-us__heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-contact-us__form input:nth-child(1){
+    margin: 0rem 0rem 1.7rem 0rem;
+}
+
+.main-contact-us__form input:nth-child(2){
+    margin: 0rem 0rem 1.7rem 0rem;
+}
+
+.main-contact-us__title{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.main-contact-us__desc{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #707070;
+    padding: 1rem 0rem 2.5rem;
+    max-width: 400px;
+}
+
+.main-contact-us__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contact-us__info a{
+    font-size: 1.63rem;
+    color: #4c4c4c;
+    font-weight: 500;
+    text-align: right;
+}
+
+.main-contact-us__info a:nth-child(1){
+    margin-bottom: 1rem;
+}
+
+.main-contact-us__form textarea{
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    background-color: #f9f9f9;
+    font-size: 1.3rem;
+    color: #707070;
+    padding: 1rem 1.7rem;
+}
+
+.main-contact-us__form button[type='submit']{
+    background-color: #ff4a49;
+    color: #FFF;
+    border: solid 1.3px transparent;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 1rem 0rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: "SF Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
